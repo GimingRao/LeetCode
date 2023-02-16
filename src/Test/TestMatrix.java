@@ -1,18 +1,20 @@
 package Test;
 
+import Topic.Topic130;
 import Topic.Topic48;
 import Topic.Topic73;
 
 import java.util.Arrays;
 
 public class TestMatrix {
-     static  int[][] matrix=new int[][]{{1,2,3},{4,5,6},{7,8,9},{0,3,0}};
+     static  char[][] matrix=new char[][]{{'X','X','X','X'},{'X','O','O','X'},{'X','O','O','X'},{'X','O','X','X'}};
+     static  char[][] matrix2=new char[][]{{'O','O'},{'O','O'}};
 
     public static void main(String[] args) {
-        Topic73 testUnit=new Topic73();
-        testUnit.setZeroes(matrix);
-        for (int i = 0; i < matrix.length; i++) {
-            System.out.println(Arrays.toString(matrix[i]));
+        Topic130 testUnit=new Topic130();
+        testUnit.solve_dfs(matrix2);
+        for (int i = 0; i < matrix2.length; i++) {
+            System.out.println(Arrays.toString(matrix2[i]));
         }
     }
 }
