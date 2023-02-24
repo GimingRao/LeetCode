@@ -1,16 +1,13 @@
 package Test;
 
-import Topic.Topic134;
-import Topic.Topic15;
-import Topic.Topic150;
-import Topic.Topic162;
+import Topic.*;
 
 public class TestArray {
-    public  static int[]TestGas=new int[]{1,2,3,1};
+    public  static int[]TestGas=new int[]{3,30,34,5,9};
     public  static int[]TestCost=new int[]{1,2,2};
 
     public static void main(String[] args) {
-        Topic162 testUnit=new Topic162();
-        System.out.println(testUnit.findPeakElement(TestGas));
+        Topic179 testUnit=new Topic179();
+        System.out.println(testUnit.largestNumber(TestGas));
     }
 }
