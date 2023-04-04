@@ -1,4 +1,4 @@
-package CodeCapriccio.DP;
+package CodeCapriccio.DP.Back;
 
 /**
  * 有一堆石头，用整数数组 stones 表示。其中 stones[i] 表示第 i 块石头的重量。

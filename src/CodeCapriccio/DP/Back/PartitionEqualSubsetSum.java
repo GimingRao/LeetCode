@@ -1,4 +1,4 @@
-package CodeCapriccio.DP;
+package CodeCapriccio.DP.Back;
 
 /**
  * 分割等和子集
